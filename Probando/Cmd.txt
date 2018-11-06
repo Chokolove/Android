@@ -1,0 +1,20 @@
+--configuracion Basica
+
+git config --global user.name "Panchito"
+git config --global user.email panchito@example.com
+
+--Empezando
+
+git clone UrlRepositorio
+
+--Creando Ramas para c/u 
+
+git checkout -b PanchitoA
+
+--Subiendo info a su rama
+
+git add . 
+git commit -m "Mensaje explicando brevemente lo que se hizo"
+git pull origin PanchitoA
+git push origin PanchitoA
+
